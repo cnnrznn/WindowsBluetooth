@@ -6,24 +6,6 @@
 #include <ws2bth.h>
 #include <stdio.h>
 
-static bool CanUseBluetooth(bool throwOnFailure)
-{
-	SOCKET s = ::socket(AF_BTH, SOCK_STREAM, BTHPROTO_RFCOMM);
-
-	const bool canUseBluetooth = (s != INVALID_SOCKET);
-
-	const DWORD lastError = ::GetLastError();
-
-	::closesocket(s);
-
-	if (!canUseBluetooth && throwOnFailure)
-	{
-		printf("can't use bluetooth\n");
-	}
-
-	return canUseBluetooth;
-}
-
 int main() 
 {
 	SOCKADDR_BTH laddr, raddr; /* local and remote socket addresses */
