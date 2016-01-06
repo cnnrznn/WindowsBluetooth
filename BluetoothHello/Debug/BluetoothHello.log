@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\cnnrznn\documents\visual studio 2015\projects\bluetoothhello\bluetoothhello\main.cpp(69): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'BTH_ADDR'
+  c:\users\cnnrznn\documents\visual studio 2015\projects\bluetoothhello\bluetoothhello\main.cpp(69): note: consider using '%lld' in the format string
+  c:\users\cnnrznn\documents\visual studio 2015\projects\bluetoothhello\bluetoothhello\main.cpp(69): note: consider using '%I64d' in the format string
+c:\users\cnnrznn\documents\visual studio 2015\projects\bluetoothhello\bluetoothhello\main.cpp(70): warning C4477: 'printf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'BTH_ADDR'
+  c:\users\cnnrznn\documents\visual studio 2015\projects\bluetoothhello\bluetoothhello\main.cpp(70): note: consider using '%llX' in the format string
+  c:\users\cnnrznn\documents\visual studio 2015\projects\bluetoothhello\bluetoothhello\main.cpp(70): note: consider using '%I64X' in the format string
+  BluetoothHello.vcxproj -> C:\Users\cnnrznn\documents\visual studio 2015\Projects\BluetoothHello\Debug\BluetoothHello.exe
+  BluetoothHello.vcxproj -> C:\Users\cnnrznn\documents\visual studio 2015\Projects\BluetoothHello\Debug\BluetoothHello.pdb (Partial PDB)
